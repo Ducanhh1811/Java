@@ -1,0 +1,5 @@
+**Bài tập: Quản lý sinh viên**
+
+Viết chương trình quản lý danh sách sinh viên sử dụng `ArrayList<Student>`. Mỗi sinh viên gồm các thông tin: mã sinh viên (`id`), họ và tên (`name`), và điểm trung bình (`gpa`). Chương trình có menu gồm các chức năng: thêm sinh viên, hiển thị danh sách sinh viên, tìm kiếm sinh viên theo mã, cập nhật thông tin sinh viên, xóa sinh viên và thoát chương trình.
+
+Khi thêm sinh viên, chương trình cần kiểm tra dữ liệu nhập vào: mã sinh viên không được để trống và không được trùng với các mã đã có trong danh sách; họ và tên không được để trống; điểm trung bình phải là số và nằm trong khoảng từ **0 đến 10**. Chức năng hiển thị sẽ in ra toàn bộ danh sách sinh viên. Chức năng tìm kiếm yêu cầu nhập mã sinh viên và hiển thị đầy đủ thông tin nếu tìm thấy, ngược lại thông báo không tồn tại. Chức năng cập nhật cho phép nhập mã sinh viên cần sửa, nếu tìm thấy thì cập nhật lại họ tên và điểm trung bình (vẫn phải kiểm tra hợp lệ), nếu không tìm thấy thì thông báo lỗi. Chức năng xóa yêu cầu nhập mã sinh viên, nếu tồn tại thì xóa khỏi danh sách, nếu không thì thông báo không tìm thấy.

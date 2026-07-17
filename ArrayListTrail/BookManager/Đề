@@ -1,0 +1,5 @@
+**Bài tập: Quản lý sách**
+
+Viết chương trình quản lý danh sách sách sử dụng `ArrayList<Book>`. Mỗi cuốn sách gồm các thông tin: mã sách (`id`), tên sách (`title`), tên tác giả (`author`) và số lượng (`quantity`). Chương trình có menu gồm các chức năng: thêm sách, hiển thị danh sách sách, tìm kiếm sách theo mã hoặc tên, cập nhật thông tin sách, xóa sách và thoát chương trình.
+
+Khi thêm sách, chương trình cần kiểm tra dữ liệu nhập vào: mã sách không được để trống và không được trùng với các mã đã có; tên sách và tên tác giả không được để trống; số lượng phải là số nguyên và lớn hơn hoặc bằng 0. Chức năng hiển thị sẽ in toàn bộ danh sách sách. Chức năng tìm kiếm cho phép người dùng nhập mã sách hoặc tên sách để tìm, nếu tìm thấy thì hiển thị đầy đủ thông tin, nếu không thì thông báo không tồn tại. Chức năng cập nhật yêu cầu nhập mã sách cần sửa, nếu tìm thấy thì cho phép cập nhật tên sách, tên tác giả và số lượng (vẫn phải kiểm tra dữ liệu hợp lệ). Chức năng xóa yêu cầu nhập mã sách, nếu tồn tại thì xóa khỏi danh sách, nếu không thì thông báo không tìm thấy.

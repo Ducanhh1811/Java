@@ -1,0 +1,15 @@
+package NumberConverter;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        Converter c = Converter.inputBase(sc);
+
+        c.display(sc);
+
+        sc.close();
+    }
+}

@@ -1,0 +1,18 @@
+**Bài tập: Quản lý nhân viên**
+
+Viết chương trình quản lý danh sách nhân viên sử dụng `ArrayList<Employee>`. Mỗi nhân viên gồm các thông tin: mã nhân viên (`id`), họ và tên (`name`), chức vụ (`position`), lương (`salary`) và số năm kinh nghiệm (`experience`). Chương trình có menu gồm các chức năng: thêm nhân viên, hiển thị danh sách nhân viên, tìm kiếm nhân viên theo mã hoặc tên, cập nhật thông tin nhân viên, xóa nhân viên, sắp xếp danh sách theo lương tăng dần hoặc giảm dần, sắp xếp theo số năm kinh nghiệm giảm dần, hiển thị nhân viên có mức lương cao nhất và thấp nhất, tính lương trung bình của tất cả nhân viên và thoát chương trình.
+
+Khi thêm nhân viên, chương trình cần kiểm tra dữ liệu nhập vào: mã nhân viên không được để trống và không được trùng; họ và tên, chức vụ không được để trống; lương phải là số lớn hơn 0; số năm kinh nghiệm phải là số nguyên không âm. Chức năng cập nhật không cho phép thay đổi mã nhân viên và mọi dữ liệu sau khi cập nhật vẫn phải hợp lệ. Chức năng tìm kiếm không phân biệt chữ hoa và chữ thường. Chức năng sắp xếp sử dụng `Collections.sort()` kết hợp với `Comparator`, đồng thời chương trình phải xử lý các trường hợp nhập sai dữ liệu bằng `try-catch` để không bị dừng do ngoại lệ.
+
+**Độ khó: 7/10**
+
+**Kiến thức cần sử dụng:**
+
+* OOP (Class, Object)
+* `ArrayList`
+* Validation
+* `try-catch`
+* CRUD (Create, Read, Update, Delete)
+* `Collections.sort()`
+* `Comparator`
+* Tìm kiếm và thống kê dữ liệu
