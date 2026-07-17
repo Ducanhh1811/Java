@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(500deg, #CCBDDD, #764ba2);
+}
+
+.header{
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  border-bottom: 2px solid black;
+
+  background: linear-gradient(350deg, #CCBDDD, #6E519D);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.lg img{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-right: 200px;
+}
+
+.menu ul li{
+  margin: 0 20px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.bg{
+  position: relative;
+  padding-bottom: 42px;
+}
+
+.bg video{
+  width: 100% ;
+  height: 100vh;
+  object-fit: cover;
+  mask-image: linear-gradient(to bottom, black 90%, transparent);
+}
+/* .bg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  mask-image: linear-gradient(to bottom, black 70%, transparent);
+} */
+
+.bg1{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 160px;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px black;
+}
+
+.bg-1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px);
+  -webkit-mask-image:  linear-gradient(to bottom, transparent, black 90%, black 90%, transparent);
+}
+
+.avatar img{
+  width: 350px;
+  height: 350px;
+  border-radius: 70px;
+}
+
+.home{
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  color: white;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  gap: 200px;  
+}
+
+.info1 {
+  width: auto;
+  height: auto;
+  font-size: 24px;
+}
+
+.info1 h1{
+  display: flex;
+}
+  
+
+
+
+
+
+.img-ab img{
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image:  linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+}
+
+
+.footer{
+  width: auto;
+  height: 120px;
+  background: linear-gradient(530deg, #CCBDDD, #6E519D);
+  text-align: center;
+}
+
+.footer h1{
+  color: white;
+  padding-top: 40px;
+}
