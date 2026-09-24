@@ -1,0 +1,6 @@
+controller\ProductServlet.class
+dal\DBTest.class
+model\Product.class
+dal\DBContext.class
+controller\NewServlet.class
+dal\ProductDAO.class

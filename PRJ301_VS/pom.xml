@@ -14,9 +14,9 @@
     <packaging>war</packaging>
 
     <properties>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
-        <maven.compiler.release>25</maven.compiler.release>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -48,7 +48,7 @@
     </dependencies>
 
     <build>
-        <finalName>PRJ301</finalName>
+        <finalName>PRJ301_VS</finalName>
 
         <plugins>
             <plugin>

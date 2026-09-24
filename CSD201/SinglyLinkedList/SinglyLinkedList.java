@@ -22,4 +22,19 @@ public class SinglyLinkedList {
     public void addFirst(){
         
     }
+
+    public void reverse(){
+        Node previous = null;
+        Node current = head;
+        tail = head;
+
+        while(current != null){
+            Node next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+
+        head = previous;
+    }
 }
